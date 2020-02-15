@@ -1,0 +1,25 @@
+.maison_vue_devant
+{
+    
+    width: auto;
+}
+
+.example-card
+{
+    margin: auto;
+    width:90% ;
+}
+
+.flex_space_around{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.ml-2{
+    margin-left: 2em;
+}
+.ml-5px{
+    margin-left: 10px;
+}

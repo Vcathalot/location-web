@@ -1,0 +1,10 @@
+<app-header></app-header>
+<mat-drawer-container class="main-container">
+    <mat-drawer mode="side" opened>
+        <app-menu (pageAAfficher)="definirPage($event)"></app-menu>
+    </mat-drawer>
+
+    <mat-drawer-content class="content-container">
+        <app-description *ngIf="pageSelectionnee === 'Accueil'"></app-description>
+    </mat-drawer-content>
+  </mat-drawer-container>
